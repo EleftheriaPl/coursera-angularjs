@@ -50,3 +50,32 @@ input[type="text"] {
     transform: rotate(360deg);
   }
 }
+
+.emptyMessage {
+  float: left;
+  clear: both;
+  font-weight: bold;
+  color: red;
+  font-size: 1.2em;
+}
+
+.column {
+  float: left;
+  padding: 20px;
+}
+
+.row{
+  clear: both;
+}
+
+#foundName {
+  width: 10%;
+}
+
+#foundShort {
+  width: 10%;
+}
+
+#foundDescr {
+  width: 30%;
+}
