@@ -1,0 +1,18 @@
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Short name</th>
+			<th>Description</th>
+			<th>Price</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="catItem in $ctrl.items">
+			<td>{{catItem.name}}</td>
+			<td>{{catItem.short_name}}</td>
+			<td>{{catItem.description}}</td>
+			<td>{{catItem.price_large}}</td>
+		</tr>
+	</tbody>
+</table>
